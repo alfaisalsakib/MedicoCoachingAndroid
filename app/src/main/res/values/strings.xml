@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MedicoDemo5</string>
+    <string name="title_activity_profile_login">ProfileLogin</string>
+    <string name="title_activity_question_item">QuestionItem</string>
+</resources>

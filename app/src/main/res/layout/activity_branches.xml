@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/map"-->
+    <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".model.Branches"/>-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".model.Branches"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#aaaa">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branches"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+
+    <!--<fragment-->
+        <!--xmlns:map="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/map"-->
+        <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="400dp">-->
+
+    <!--</fragment>-->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name : FARMGATE BRANCH"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : Sagor Saikot Market"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : 01921700719"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name : UTTARA BRANCH"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : House#8, 2nd Floor, Road#3,Sector#6,UTTARA, DHAKA"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : 0178855099"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name : SHANTINAGAR BRANCH"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : 148 Shantinagar , DHAKA"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : 01766089149"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name : MIRPUR BRANCH"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : 27, Deewan Mansion,Mirpur10 DHAKA"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : 01790339999"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branch Name : JATRABARI BRANCH"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location : 101,Shaheed Faruq Road , south Jatrabari,dhaka"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone : 0178661166"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

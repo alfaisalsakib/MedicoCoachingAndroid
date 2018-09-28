@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_back"
+        android:icon="@drawable/prevquestion"
+        android:title="Previous"/>
+
+
+    <item
+        android:id="@+id/navigation_submit"
+        android:icon="@drawable/submiticon"
+        android:title="Submit"/>
+
+    <item
+        android:id="@+id/navigation_next"
+        android:icon="@drawable/nxtquestion"
+        android:title="Next"/>
+
+</menu>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="2dp"
+    android:background="#FECC53">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.nightonke.boommenu.BoomMenuButton
+            android:id="@+id/action_bar_right_bmb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            app:bmb_backgroundEffect="false"
+            app:bmb_boomEnum="boomParabola_2"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutoutside"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="140dp" />
+
+        <com.daimajia.slider.library.Indicators.PagerIndicator
+            android:id="@+id/custom_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:fillViewport="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="145dp">
+
+        <LinearLayout
+            android:id="@+id/linearlayoutinside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal"
+                >
+
+                <ImageButton
+                    android:id="@+id/admissionButton"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/admissioninfoicon"
+                    android:onClick="admission"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:id="@+id/servicePlan"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/serviceplanicon"
+                    android:layout_weight="1"
+                    android:onClick="servicePlan"
+                    android:layout_marginLeft="4dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/onlineExam"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/onlineexamicon"
+                    android:onClick="onlineExam"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+
+                <ImageButton
+                    android:id="@+id/onlineSolution"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/onlinesolutionicon"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="onlineSolution"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:padding="5dp">
+
+                <ImageButton
+                    android:id="@+id/prospectus"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/prospectusincon"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:onClick="Prospectus"/>
+
+                <ImageButton
+                    android:id="@+id/branchButton"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/locationicon"
+                    android:onClick="branches"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_boomEnum="boomParabola_3"
+        android:layout_alignParentBottom="true"
+        app:bmb_normalColor="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|end"/>
+
+</RelativeLayout>

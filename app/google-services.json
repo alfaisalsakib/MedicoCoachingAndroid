@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "383847510380",
+    "firebase_url": "https://medico-notify.firebaseio.com",
+    "project_id": "medico-notify",
+    "storage_bucket": "medico-notify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383847510380:android:66a4fd9abb9eb328",
+        "android_client_info": {
+          "package_name": "com.example.sakib.medicodemo5.model"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383847510380-kejqhutitgku14to9aicc3s8vh0kqfr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sakib.medicodemo5.model",
+            "certificate_hash": "f874f06c91b0ad05b8363f5efac7a58f84db03ce"
+          }
+        },
+        {
+          "client_id": "383847510380-r8p3nsl23g3dmam01445v6goa276gb12.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "383847510380-r8p3nsl23g3dmam01445v6goa276gb12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGrgiFvgn99_tRAnz5Bw9zPA3NiYXv9VQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383847510380-r8p3nsl23g3dmam01445v6goa276gb12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".model.ProfileLogin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:background="#ffffaa">
+
+        <ImageView
+            android:id="@+id/imageViewUserName"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/usericon" />
+
+        <EditText
+            android:id="@+id/editTextUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/imageViewUserName"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/imageViewUserName"
+            android:hint="Student Name"
+            android:inputType="text"
+            android:maxLength="30"
+            android:textColor="#FB8C00"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageViewPassword"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/imageViewUserName"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/passicon" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/editTextUserName"
+            android:layout_alignTop="@id/imageViewPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#FB8C00"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/imageViewEmail"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/imageViewPassword"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/serialnumbericon" />
+
+        <EditText
+            android:id="@+id/editTextSerialNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/editTextUserName"
+            android:layout_alignTop="@id/imageViewEmail"
+            android:hint="Serial Number"
+            android:inputType="numberDecimal"
+            android:textColor="#FB8C00"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextSerialNumber"/>
+
+    </RelativeLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="#FECC53"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/activity_login" />
+
+</android.support.constraint.ConstraintLayout>
